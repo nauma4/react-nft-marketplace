@@ -1,0 +1,12 @@
+@import './colors';
+
+html {
+	font-size: 10px;
+  background-color: $background-color;
+}
+html, body, button, p, span, li, ol, a {
+  font-family: "Poppins", sans-serif;
+}
+a {
+	text-decoration: none;
+}
