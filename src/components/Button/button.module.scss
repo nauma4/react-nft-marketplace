@@ -1,0 +1,37 @@
+@import '@styles/colors';
+
+.button {
+  display: flex;
+  border: 2.29px solid #141416;
+  border-radius: 1.2rem;
+  padding: 0.9rem 1.8rem;
+  background: #141416;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: #222;
+    border-color: #222;
+  }
+
+  &.buttonOutline {
+    background-color: #fff;
+
+    &:hover {
+      background-color: #d7d7d7;
+    }
+
+    .button__text {
+      color: #141416;
+    }
+  }
+
+  .button__text {
+    font-family: $second-family;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

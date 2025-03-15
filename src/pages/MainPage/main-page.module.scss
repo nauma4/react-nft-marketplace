@@ -1,5 +1,7 @@
-@import '../../styles/colors.scss';
+@import '@styles/colors';
 
 .mainPage {
+  display: flex;
+  flex-direction: column;
   background-color: $background-color;
 }
