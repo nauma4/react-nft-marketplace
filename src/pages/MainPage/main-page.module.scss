@@ -4,4 +4,8 @@
   display: flex;
   flex-direction: column;
   background-color: $background-color;
+
+  .content {
+    min-height: 100vh;
+  }
 }

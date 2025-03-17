@@ -26,49 +26,49 @@ const Header: React.FC<HeaderProps> = () => {
     <div className={clsx(styles.header, { [styles.isOpen]: isOpen })}>
       <div className={styles.header__container}>
         <div className={styles.header__logo}>
-          <a href="#" className={styles.logo__link}>
-            <img src={Logo} className={styles.logo__image} />
-            <img src={LogoText} className={styles.logo__imageMobile} />
+          <a href="/#" className={styles.logo__link}>
+            <img src={Logo} alt="logo" className={styles.logo__image} />
+            <img src={LogoText} alt="logo" className={styles.logo__imageMobile} />
           </a>
 
           <button className={styles.header__switchMenu} onClick={toggleHeader}>
-            <img src={!isOpen ? MenuIcon : MenuCloseIcon} />
+            <img alt="burger" src={!isOpen ? MenuIcon : MenuCloseIcon} />
           </button>
         </div>
         <div className={styles.header__menu}>
           <ul className={styles.menu__list}>
             <li className={styles.menu__listItem}>
-              <a href="#">Discover</a>
+              <a href="/#">Discover</a>
             </li>
             <li className={styles.menu__listItem}>
-              <a href="#">Creators</a>
+              <a href="/#">Creators</a>
             </li>
             <li className={styles.menu__listItem}>
-              <a href="#">Sell</a>
+              <a href="/#">Sell</a>
             </li>
             <li className={styles.menu__listItem}>
-              <a href="#">Stats</a>
+              <a href="/#">Stats</a>
             </li>
           </ul>
 
           <ul className={styles.menu__socials}>
             <li className={styles.instagram}>
-              <a href="#">
+              <a href="/#">
                 <InstagramIcon />
               </a>
             </li>
             <li className={styles.linkedin}>
-              <a href="#">
+              <a href="/#">
                 <LinkedinIcon />
               </a>
             </li>
             <li className={styles.facebook}>
-              <a href="#">
+              <a href="/#">
                 <FacebookIcon />
               </a>
             </li>
             <li className={styles.twitter}>
-              <a href="#">
+              <a href="/#">
                 <TwitterIcon />
               </a>
             </li>

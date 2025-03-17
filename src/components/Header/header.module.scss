@@ -89,7 +89,7 @@
     align-items: flex-start;
     justify-content: center;
     background-color: $background-color;
-    transition: height 0.5s ease-out, opacity 0.3s ease-out;
+    transition: height 0.5s ease-out, opacity 0.5s ease-out;
 
     
 
@@ -118,8 +118,8 @@
           bottom: 0;
           right: 0;
           width: 83.73333333333333vw;
-          height: 0.1rem;
-          background-color: #cbcbcb;
+          height: 0;
+          border-bottom: 0.50px solid #cbcbcb;
         }
         
         .logo__link {
