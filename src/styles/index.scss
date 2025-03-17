@@ -1,12 +1,35 @@
-@import './colors';
+@import "./colors";
 
 html {
-	font-size: 10px;
+  font-size: 10px;
   background-color: $background-color;
 }
-html, body, button, p, span, li, ol, a {
+html,
+body,
+button,
+p,
+span,
+li,
+ol,
+a {
   font-family: "Poppins", sans-serif;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
+}
+
+.slick-slide {
+  width: 19.522916666666667vw !important;
+  padding: 2.766666666666667vw 0 13.194444444444445vw;
+  margin: 0;
+  margin-right: 2.766666666666667vw;
+  display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  .slick-slide {
+    width: 52.93066666666667vw !important;
+    padding: 10.666666666666668vw 0 16vw;
+    margin-right: 7.501333333333333vw;
+  }
 }

@@ -1,0 +1,51 @@
+@import "@styles/colors";
+
+.nftCarousel__arrows {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .arrowsBlock {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 11.666666666666666vw;
+    height: 4.790972222222222vw;
+    border-radius: 1.7rem;
+    box-shadow: 0 43px 34px -26px rgba(15, 15, 15, 0.12);
+    background: #fcfcfd;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 0.2rem;
+      width: 0.2rem;
+      height: 1.8055555555555554vw;
+      background-color: #e6e8ec;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      border: none;
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nftCarousel__arrows {
+    .arrowsBlock {
+      width: 27.200000000000003vw;
+      height: 11.304vw;
+    }
+  }
+}

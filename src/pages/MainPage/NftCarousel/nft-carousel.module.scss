@@ -1,0 +1,35 @@
+@import "@styles/colors";
+
+.nftCarousel {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 4.861111111111112vw 0;
+
+  .nftCarousel__title {
+    align-self: center;
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 3.125vw;
+    line-height: 60%;
+    color: #c5c5c5;
+    margin-bottom: 6.944444444444445vw;
+  }
+
+  .nftCarousel__slider {
+
+    
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nftCarousel {
+    background-color: #f9f9f9;
+    padding: 13.33333333334vw 0;
+    .nftCarousel__title {
+      font-size: 8vw;
+      margin-bottom: 16.8vw;
+    }
+  }
+}

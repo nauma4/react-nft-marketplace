@@ -6,6 +6,14 @@
   background-color: $background-color;
 
   .content {
-    min-height: 100vh;
+    padding-top: 14.86111111111111vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mainPage {
+    .content {
+      padding-top: 48vw;
+    }
   }
 }
