@@ -18,7 +18,7 @@ import { ReactComponent as TwitterIcon} from "@assets/icons/twitter-icon.svg";
 type HeaderProps = {};
 
 const Header: React.FC<HeaderProps> = () => {
-  const [isOpen, setIsOpen] = React.useState<boolean>(true);
+  const [isOpen, setIsOpen] = React.useState<boolean>(false);
 
   const toggleHeader = () => setIsOpen((value) => !value);
 
