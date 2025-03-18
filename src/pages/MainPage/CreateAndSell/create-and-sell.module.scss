@@ -13,7 +13,7 @@
     justify-content: space-between;
     width: 86.45833333333334vw;
     margin: 7.986111111111111vw 0 11.11111111111111vw;
-    background-color: #141416;
+    background-color: $mainDark;
     border-radius: 3rem;
 
     .info {
@@ -27,7 +27,7 @@
         font-size: 3.125vw;
         line-height: 130%;
         letter-spacing: 0.01em;
-        color: #fff;
+        color: $white;
       }
 
       .description {
@@ -48,32 +48,32 @@
 
 
         .explore {
-          background-color: #fff;
-          border-color: #fff;
+          background-color: $white;
+          border-color: $white;
           padding: 1.3770833333333332vw 1.7729166666666667vw;
 
           &:hover {
-            background-color: #f2f2f2;
-            border-color: #f2f2f2;
+            background-color: $buttonHover2;
+            border-color: $buttonHover2;
           }
         }
         
         .exploreText {
           font-size: 1.4583333333333333vw;
-          color: #141416;
+          color: $mainDark;
           text-transform: capitalize;
         }
         
         .sell {
-          border-color: #fff;
-          background-color: #141416;
+          border-color: $white;
+          background-color: $mainDark;
           padding: 1.3770833333333332vw 2.120138888888889vw;
 
           &:hover {
-            background-color: #d7d7d7;
+            background-color: $buttonHover;
 
             .sellText {
-              color: #141416;
+              color: $mainDark;
             }
           }
         }
@@ -81,7 +81,7 @@
         .sellText {
           font-size: 1.4583333333333333vw;
           text-transform: capitalize;
-          color: #fff;
+          color: $white;
         }
       }
     }

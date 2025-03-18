@@ -1,5 +1,8 @@
 @import "@styles/colors";
 
+$arrowBackground: #fcfcfd;
+$arrowLine: #e6e8ec;
+
 .nftCarousel__arrows {
   width: 100%;
   display: flex;
@@ -16,7 +19,7 @@
     height: 4.790972222222222vw;
     border-radius: 1.7rem;
     box-shadow: 0 43px 34px -26px rgba(15, 15, 15, 0.12);
-    background: #fcfcfd;
+    background: $arrowBackground;
 
     &::after {
       content: '';
@@ -27,7 +30,7 @@
       border-radius: 0.2rem;
       width: 0.2rem;
       height: 1.8055555555555554vw;
-      background-color: #e6e8ec;
+      background-color: $arrowLine;
     }
 
     .button {
