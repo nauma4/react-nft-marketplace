@@ -1,7 +1,7 @@
 @import "@styles/colors";
 
 $linkColor: #606060;
-$iconColor: 606060;
+$iconColor: #606060;
 $headerBorderBottom: #cbcbcb;
 
 .header {
@@ -63,7 +63,7 @@ $headerBorderBottom: #cbcbcb;
           font-size: 1.25vw;
           line-height: 150%;
           text-transform: uppercase;
-          color: $iconColor;
+          color: $linkColor;
         }
       }
 
