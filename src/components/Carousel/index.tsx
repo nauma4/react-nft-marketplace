@@ -1,8 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 
-import ProductCard from "@components/ProductCard";
-
 import styles from "./carousel.module.scss";
 
 import { ReactComponent as ArrowLeft } from "@assets/icons/arrow-left-icon.svg";

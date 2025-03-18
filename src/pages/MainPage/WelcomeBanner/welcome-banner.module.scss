@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 
   .welcome__container {
     display: flex;
@@ -77,7 +78,7 @@
         }
 
         .create {
-          background-color: #fff;
+          // background-color: #fff;
         }
       }
 

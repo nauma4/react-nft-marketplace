@@ -7,6 +7,7 @@ module.exports = {
       "@styles": path.resolve(__dirname, "src/styles"),
       "@pages": path.resolve(__dirname, "src/pages"),
       "@assets": path.resolve(__dirname, "src/assets"),
+      "@helpers": path.resolve(__dirname, "src/helpers"),
     },
     configure: (webpackConfig) => {
       webpackConfig.resolve.extensions.push(".ts", ".tsx");

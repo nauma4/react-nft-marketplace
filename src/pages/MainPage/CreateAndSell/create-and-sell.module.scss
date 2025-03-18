@@ -51,6 +51,11 @@
           background-color: #fff;
           border-color: #fff;
           padding: 1.3770833333333332vw 1.7729166666666667vw;
+
+          &:hover {
+            background-color: #f2f2f2;
+            border-color: #f2f2f2;
+          }
         }
         
         .exploreText {
@@ -63,6 +68,14 @@
           border-color: #fff;
           background-color: #141416;
           padding: 1.3770833333333332vw 2.120138888888889vw;
+
+          &:hover {
+            background-color: #d7d7d7;
+
+            .sellText {
+              color: #141416;
+            }
+          }
         }
         
         .sellText {

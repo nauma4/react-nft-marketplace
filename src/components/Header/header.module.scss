@@ -10,6 +10,7 @@
   justify-content: center;
   background-color: $background-color;
   z-index: 10;
+  transition: padding 0.5s ease-out;
 
   .header__container {
     width: 86.875vw;
@@ -72,7 +73,7 @@
         padding: 1.1229vw 1.6847vw;
       }
       .button__connectWalletText {
-        font-size: 1.25vw;
+        font-size: 1.1111111111111112vw;
         font-weight: 600;
         line-height: 150%;
       }
@@ -222,5 +223,13 @@
         display: flex;
       }
     }
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .header.isScroll {
+    padding-top: 0;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
 }

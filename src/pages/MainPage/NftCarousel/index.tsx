@@ -5,11 +5,9 @@ import ProductCard from "@components/ProductCard";
 
 import styles from "./nft-carousel.module.scss";
 
-
 type NftCarouselProps = {};
 
-
-const NftCarousel: React.FC<NftCarouselProps> = ({}) => {
+const NftCarousel: React.FC<NftCarouselProps> = () => {
 
   return (
     <div className={styles.nftCarousel}>
